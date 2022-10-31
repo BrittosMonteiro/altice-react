@@ -1,0 +1,42 @@
+@import 'Colors';
+
+@mixin icon($height, $width) {
+    height: $height;
+    width: $width;
+}
+
+$icon-sm: 16px;
+$icon-default: 20px;
+$icon-md: 24px;
+$icon-lg: 32px;
+
+.icon-white-1{
+    color: $white-1;
+}
+
+.icon-red-1{
+    color: $red-1
+}
+
+.icon-sm {
+    @include icon($icon-sm, $icon-sm);
+}
+
+.icon-default {
+    @include icon($icon-default, $icon-default)
+}
+
+.icon-md {
+    @include icon($icon-md, $icon-md);
+}
+
+.icon-lg {
+    @include icon($icon-lg, $icon-lg);
+}
+
+.btn-icon {
+    background-color: transparent;
+    font-size: initial;
+    cursor: pointer;
+    display: flex;
+  }

@@ -1,0 +1,199 @@
+@import 'Spacing';
+
+@mixin setMargin($top, $right, $bottom, $left){
+    margin: $top $right $bottom $left !important;
+}
+
+.ma-auto{
+    @include setMargin(auto, auto, auto, auto)
+}
+.my-auto{
+    @include setMargin(auto, 0, auto, 0)
+}
+.mx-auto{
+    @include setMargin(0, auto, 0, auto)
+}
+
+//spacing-1
+.ma-1{
+    @include setMargin($spacing-1, $spacing-1, $spacing-1, $spacing-1)
+}
+.my-1{
+    @include setMargin($spacing-1, 0, $spacing-1, 0)
+}
+.mx-1{
+    @include setMargin(0, $spacing-1, 0, $spacing-1)
+}
+.mt-1{
+    @include setMargin($spacing-1, 0, 0, 0)
+}
+.mr-1{
+    @include setMargin(0, $spacing-1, 0, 0)
+}
+.mb-1{
+    @include setMargin(0, 0, $spacing-1, 0)
+}
+.ml-1{
+    @include setMargin(0, 0, 0, $spacing-1)
+}
+
+//spacing-2
+.ma-2{
+    @include setMargin($spacing-2, $spacing-2, $spacing-2, $spacing-2)
+}
+.my-2{
+    @include setMargin($spacing-2, 0, $spacing-2, 0)
+}
+.mx-2{
+    @include setMargin(0, $spacing-2, 0, $spacing-2)
+}
+.mt-2{
+    @include setMargin($spacing-2, 0, 0, 0)
+}
+.mr-2{
+    @include setMargin(0, $spacing-2, 0, 0)
+}
+.mb-2{
+    @include setMargin(0, 0, $spacing-2, 0)
+}
+.ml-2{
+    @include setMargin(0, 0, 0, $spacing-2)
+}
+
+//spacing-3
+.ma-3{
+    @include setMargin($spacing-3, $spacing-3, $spacing-3, $spacing-3)
+}
+.my-3{
+    @include setMargin($spacing-3, 0, $spacing-3, 0)
+}
+.mx-3{
+    @include setMargin(0, $spacing-3, 0, $spacing-3)
+}
+.mt-3{
+    @include setMargin($spacing-3, 0, 0, 0)
+}
+.mr-3{
+    @include setMargin(0, $spacing-3, 0, 0)
+}
+.mb-3{
+    @include setMargin(0, 0, $spacing-3, 0)
+}
+.ml-3{
+    @include setMargin(0, 0, 0, $spacing-3)
+}
+
+//spacing-4
+.ma-4{
+    @include setMargin($spacing-4, $spacing-4, $spacing-4, $spacing-4)
+}
+.my-4{
+    @include setMargin($spacing-4, 0, $spacing-4, 0)
+}
+.mx-4{
+    @include setMargin(0, $spacing-4, 0, $spacing-4)
+}
+.mt-4{
+    @include setMargin($spacing-4, 0, 0, 0)
+}
+.mr-4{
+    @include setMargin(0, $spacing-4, 0, 0)
+}
+.mb-4{
+    @include setMargin(0, 0, $spacing-4, 0)
+}
+.ml-4{
+    @include setMargin(0, 0, 0, $spacing-4)
+}
+
+//spacing-5
+.ma-5{
+    @include setMargin($spacing-5, $spacing-5, $spacing-5, $spacing-5)
+}
+.my-5{
+    @include setMargin($spacing-5, 0, $spacing-5, 0)
+}
+.mx-5{
+    @include setMargin(0, $spacing-5, 0, $spacing-5)
+}
+.mt-5{
+    @include setMargin($spacing-5, 0, 0, 0)
+}
+.mr-5{
+    @include setMargin(0, $spacing-5, 0, 0)
+}
+.mb-5{
+    @include setMargin(0, 0, $spacing-5, 0)
+}
+.ml-5{
+    @include setMargin(0, 0, 0, $spacing-5)
+}
+
+//spacing-6
+.ma-6{
+    @include setMargin($spacing-6, $spacing-6, $spacing-6, $spacing-6)
+}
+.my-6{
+    @include setMargin($spacing-6, 0, $spacing-6, 0)
+}
+.mx-6{
+    @include setMargin(0, $spacing-6, 0, $spacing-6)
+}
+.mt-6{
+    @include setMargin($spacing-6, 0, 0, 0)
+}
+.mr-6{
+    @include setMargin(0, $spacing-6, 0, 0)
+}
+.mb-6{
+    @include setMargin(0, 0, $spacing-6, 0)
+}
+.ml-6{
+    @include setMargin(0, 0, 0, $spacing-6)
+}
+
+//spacing-7
+.ma-7{
+    @include setMargin($spacing-7, $spacing-7, $spacing-7, $spacing-7)
+}
+.my-7{
+    @include setMargin($spacing-7, 0, $spacing-7, 0)
+}
+.mx-7{
+    @include setMargin(0, $spacing-7, 0, $spacing-7)
+}
+.mt-7{
+    @include setMargin($spacing-7, 0, 0, 0)
+}
+.mr-7{
+    @include setMargin(0, $spacing-7, 0, 0)
+}
+.mb-7{
+    @include setMargin(0, 0, $spacing-7, 0)
+}
+.ml-7{
+    @include setMargin(0, 0, 0, $spacing-7)
+}
+
+//spacing-8
+.ma-8{
+    @include setMargin($spacing-8, $spacing-8, $spacing-8, $spacing-8)
+}
+.my-8{
+    @include setMargin($spacing-8, 0, $spacing-8, 0)
+}
+.mx-8{
+    @include setMargin(0, $spacing-8, 0, $spacing-8)
+}
+.mt-8{
+    @include setMargin($spacing-8, 0, 0, 0)
+}
+.mr-8{
+    @include setMargin(0, $spacing-8, 0, 0)
+}
+.mb-8{
+    @include setMargin(0, 0, $spacing-8, 0)
+}
+.ml-8{
+    @include setMargin(0, 0, 0, $spacing-8)
+}

@@ -1,0 +1,199 @@
+@import 'Spacing';
+
+@mixin setPadding($top, $right, $bottom, $left){
+    padding: $top $right $bottom $left !important;
+}
+
+.pa-auto{
+    @include setPadding(auto, auto, auto, auto)
+}
+.py-auto{
+    @include setPadding(auto, 0, auto, 0)
+}
+.px-auto{
+    @include setPadding(0, auto, 0, auto)
+}
+
+//spacing-1
+.pa-1{
+    @include setPadding($spacing-1, $spacing-1, $spacing-1, $spacing-1)
+}
+.py-1{
+    @include setPadding($spacing-1, 0, $spacing-1, 0)
+}
+.px-1{
+    @include setPadding(0, $spacing-1, 0, $spacing-1)
+}
+.pt-1{
+    @include setPadding($spacing-1, 0, 0, 0)
+}
+.pr-1{
+    @include setPadding(0, $spacing-1, 0, 0)
+}
+.pb-1{
+    @include setPadding(0, 0, $spacing-1, 0)
+}
+.pl-1{
+    @include setPadding(0, 0, 0, $spacing-1)
+}
+
+//spacing-2
+.pa-2{
+    @include setPadding($spacing-2, $spacing-2, $spacing-2, $spacing-2)
+}
+.py-2{
+    @include setPadding($spacing-2, 0, $spacing-2, 0)
+}
+.px-2{
+    @include setPadding(0, $spacing-2, 0, $spacing-2)
+}
+.pt-2{
+    @include setPadding($spacing-2, 0, 0, 0)
+}
+.pr-2{
+    @include setPadding(0, $spacing-2, 0, 0)
+}
+.pb-2{
+    @include setPadding(0, 0, $spacing-2, 0)
+}
+.pl-2{
+    @include setPadding(0, 0, 0, $spacing-2)
+}
+
+//spacing-3
+.pa-3{
+    @include setPadding($spacing-3, $spacing-3, $spacing-3, $spacing-3)
+}
+.py-3{
+    @include setPadding($spacing-3, 0, $spacing-3, 0)
+}
+.px-3{
+    @include setPadding(0, $spacing-3, 0, $spacing-3)
+}
+.pt-3{
+    @include setPadding($spacing-3, 0, 0, 0)
+}
+.pr-3{
+    @include setPadding(0, $spacing-3, 0, 0)
+}
+.pb-3{
+    @include setPadding(0, 0, $spacing-3, 0)
+}
+.pl-3{
+    @include setPadding(0, 0, 0, $spacing-3)
+}
+
+//spacing-4
+.pa-4{
+    @include setPadding($spacing-4, $spacing-4, $spacing-4, $spacing-4)
+}
+.py-4{
+    @include setPadding($spacing-4, 0, $spacing-4, 0)
+}
+.px-4{
+    @include setPadding(0, $spacing-4, 0, $spacing-4)
+}
+.pt-4{
+    @include setPadding($spacing-4, 0, 0, 0)
+}
+.pr-4{
+    @include setPadding(0, $spacing-4, 0, 0)
+}
+.pb-4{
+    @include setPadding(0, 0, $spacing-4, 0)
+}
+.pl-4{
+    @include setPadding(0, 0, 0, $spacing-4)
+}
+
+//spacing-5
+.pa-5{
+    @include setPadding($spacing-5, $spacing-5, $spacing-5, $spacing-5)
+}
+.py-5{
+    @include setPadding($spacing-5, 0, $spacing-5, 0)
+}
+.px-5{
+    @include setPadding(0, $spacing-5, 0, $spacing-5)
+}
+.pt-5{
+    @include setPadding($spacing-5, 0, 0, 0)
+}
+.pr-5{
+    @include setPadding(0, $spacing-5, 0, 0)
+}
+.pb-5{
+    @include setPadding(0, 0, $spacing-5, 0)
+}
+.pl-5{
+    @include setPadding(0, 0, 0, $spacing-5)
+}
+
+//spacing-6
+.pa-6{
+    @include setPadding($spacing-6, $spacing-6, $spacing-6, $spacing-6)
+}
+.py-6{
+    @include setPadding($spacing-6, 0, $spacing-6, 0)
+}
+.px-6{
+    @include setPadding(0, $spacing-6, 0, $spacing-6)
+}
+.pt-6{
+    @include setPadding($spacing-6, 0, 0, 0)
+}
+.pr-6{
+    @include setPadding(0, $spacing-6, 0, 0)
+}
+.pb-6{
+    @include setPadding(0, 0, $spacing-6, 0)
+}
+.pl-6{
+    @include setPadding(0, 0, 0, $spacing-6)
+}
+
+//spacing-7
+.pa-7{
+    @include setPadding($spacing-7, $spacing-7, $spacing-7, $spacing-7)
+}
+.py-7{
+    @include setPadding($spacing-7, 0, $spacing-7, 0)
+}
+.px-7{
+    @include setPadding(0, $spacing-7, 0, $spacing-7)
+}
+.pt-7{
+    @include setPadding($spacing-7, 0, 0, 0)
+}
+.pr-7{
+    @include setPadding(0, $spacing-7, 0, 0)
+}
+.pb-7{
+    @include setPadding(0, 0, $spacing-7, 0)
+}
+.pl-7{
+    @include setPadding(0, 0, 0, $spacing-7)
+}
+
+//spacing-8
+.pa-8{
+    @include setPadding($spacing-8, $spacing-8, $spacing-8, $spacing-8)
+}
+.py-8{
+    @include setPadding($spacing-8, 0, $spacing-8, 0)
+}
+.px-8{
+    @include setPadding(0, $spacing-8, 0, $spacing-8)
+}
+.pt-8{
+    @include setPadding($spacing-8, 0, 0, 0)
+}
+.pr-8{
+    @include setPadding(0, $spacing-8, 0, 0)
+}
+.pb-8{
+    @include setPadding(0, 0, $spacing-8, 0)
+}
+.pl-8{
+    @include setPadding(0, 0, 0, $spacing-8)
+}

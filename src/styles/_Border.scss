@@ -1,0 +1,25 @@
+$border-radius-none: 0;
+$border-radius-soft: 2px;
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+
+.border-radius-none{
+    border-radius: $border-radius-none
+}
+.border-radius-soft{
+    border-radius: $border-radius-soft
+}
+.border-radius-sm{
+    border-radius: $border-radius-sm
+}
+.border-radius-md{
+    border-radius: $border-radius-md
+}
+.border-radius-lg{
+    border-radius: $border-radius-lg
+}
+
+.border-default{
+    border: 1px solid $dark-5;
+}

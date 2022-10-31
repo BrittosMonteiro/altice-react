@@ -1,0 +1,35 @@
+$font-sm: 14px;
+$font-md: 16px;
+$font-lg: 24px;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+$font-weight-black: 700;
+
+.font-sm{
+    font-size: $font-sm;
+}
+.font-md{
+    font-size: $font-md;
+}
+.font-lg{
+    font-size: $font-lg;
+}
+
+.font-light{
+    font-weight: $font-weight-light
+}
+.font-regular{
+    font-weight: $font-weight-regular
+}
+.font-medium{
+    font-weight: $font-weight-medium
+}
+.font-bold{
+    font-weight: $font-weight-bold
+}
+.font-black{
+    font-weight: $font-weight-black
+}

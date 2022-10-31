@@ -1,0 +1,32 @@
+@import 'Colors';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: $dark-1;
+}
+
+.page-title {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+
+// .btn {
+//   background-color: transparent;
+//   cursor: pointer;
+//   padding: 0;
+// }
+// .btn-default {
+//   color: #fff;
+//   border: 2px solid #fff;
+//   transition: 0.9s;
+//   padding: 4px 8px;
+//   border-radius: 2px;
+// }

@@ -1,0 +1,26 @@
+@import 'Colors';
+@import 'Border';
+@import 'Font';
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    transition: 0.4s;
+    background-color: $dark-2;
+    color: $white-1;
+
+    &:hover {
+        background-color: $bg-transparent;
+    }
+}
+
+.no-data {
+    background-color: $dark-2;
+    color: $white-1;
+}
