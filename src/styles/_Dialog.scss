@@ -1,0 +1,81 @@
+@import 'Colors';
+@import 'Border';
+@import 'Font';
+
+.overlay {
+    position: fixed;
+    overflow-y: auto !important;
+    background-color: $dark-shadow-1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 32px 0;
+    display: grid;
+    place-items: center;
+}
+
+.dialog {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    margin: auto auto;
+    padding: 16px;
+    border-radius: 2px;
+    background-color: #333333;
+    box-shadow: 0px 0px 15px 5px $dark-shadow-2;
+    border-radius: 2px;
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: $font-sm;
+        gap: 8px;
+        color: $white-1;
+
+        label {
+            font-weight: $font-weight-light;
+        }
+    }
+
+    hr {
+        width: 100%;
+        height: 1px;
+        background-color: $dark-5;
+        margin-top: 16px;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+
+        li {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            margin-top: 8px;
+            gap: 8px;
+
+            span {
+                font-size: $font-sm;
+                font-weight: $font-weight-medium;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.input {
+    background-color: $bg-transparent;
+    color: $white-1;
+    font-weight: $font-weight-regular;
+    width: 100%;
+}

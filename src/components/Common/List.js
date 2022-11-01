@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { User, EnvelopeSimple } from "phosphor-react";
+import DialogUser from "../Dialog/DialogUser";
+import DialogLetter from "../Dialog/DialogLetters";
 
 export default function List() {
   const [letters, setLetters] = useState([]);
@@ -40,22 +41,8 @@ export default function List() {
           >
             {letter.name}
             <div className="row gap-2">
-              <button
-                className="btn-icon"
-                onClick={() => {
-                  console.log("User", letter.id);
-                }}
-              >
-                <User className="icon-sm icon-white-1" />
-              </button>
-              <button
-                className="btn-icon"
-                onClick={() => {
-                  console.log("Letter", letter.id);
-                }}
-              >
-                <EnvelopeSimple className="icon-sm icon-white-1" />
-              </button>
+              <DialogUser profile={letter} />
+              <DialogLetter letters={letter.posts} />
             </div>
           </li>
         ))}
