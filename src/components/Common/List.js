@@ -4,9 +4,22 @@ import DialogLetter from "../Dialog/DialogLetters";
 const API_URL = "https://jsonplaceholder.typicode.com";
 
 export default function List() {
+
+  /**
+   * Initial state for letters, which will contain both users and posts data
+   */
   const [letters, setLetters] = useState([]);
+
+  /**
+   * Initial state for errors, which will be displayed on screen an error occur.
+   */
   const [lettersError, setLettersError] = useState("");
 
+  /**
+   * This useEffect is used to load all users and posts API content.
+   * After fetching all users, it's going to search and push for all posts related to each found user.
+   * Then, it will populate letters useState, so it can be displayed on screen
+   */
   useEffect(() => {
     const API_URL_USERS = `${API_URL}/users`;
     const API_URL_POSTS = `${API_URL}/posts`;
