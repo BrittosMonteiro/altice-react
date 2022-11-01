@@ -32,21 +32,19 @@ export default function List() {
   }, []);
 
   return (
-    <>
-      <ul className="list gap-4">
-        {letters.map((letter) => (
-          <li
-            className="list-item row align-items-center justify-content-between pa-4 border-radius-soft font-light font-md"
-            key={letter.id}
-          >
-            {letter.name}
-            <div className="row gap-2">
-              <DialogUser profile={letter} />
-              <DialogLetter letters={letter.posts} />
-            </div>
-          </li>
-        ))}
-      </ul>
-    </>
+    <ul className="list gap-4">
+      {letters.map((letter) => (
+        <li
+          className="list-item row align-items-center justify-content-between pa-4 border-radius-soft font-light font-md"
+          key={letter.id}
+        >
+          {letter.name}
+          <div className="row gap-2">
+            <DialogUser profile={letter} />
+            <DialogLetter letters={letter.posts} />
+          </div>
+        </li>
+      ))}
+    </ul>
   );
 }
