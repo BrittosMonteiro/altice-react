@@ -19,7 +19,7 @@ export default function DialogLetter(props) {
           <Dialog.Content className="dialog text-white-1">
             <Accordion.Root type="single" collapsible className="column">
               {props.letters.map((letter, key) => (
-                <>
+                <div key={letter.id}>
                   <Accordion.Item
                     key={letter.id}
                     value={letter.id}
@@ -34,8 +34,8 @@ export default function DialogLetter(props) {
                       {letter.body}
                     </Accordion.Content>
                   </Accordion.Item>
-                  {key < props.letters.length - 1 ? <hr /> : null}
-                </>
+                  {key < props.letters.length - 1 ? <hr className="mt-2" /> : null}
+                </div>
               ))}
             </Accordion.Root>
           </Dialog.Content>
